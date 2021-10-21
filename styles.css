@@ -3,7 +3,7 @@
   background-image: url(header-shapesmobile.png);
 }
 
-.header {
+.toolbar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
