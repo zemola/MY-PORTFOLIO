@@ -1,0 +1,65 @@
+
+.main-body {
+  background-image: url(header-shapesmobile.png);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.body {
+  height: 718px;
+  width: 375px;
+}
+
+.My-logo {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #6070ff;
+}
+
+.menu-bar {
+  width: 16px;
+  left: 4px;
+  top: 17px;
+}
+
+#contact {
+  color: #6070ff;
+}
+
+.intro {
+  height: 150px;
+  width: 327px;
+  left: 24px;
+  top: 114px;
+}
+
+h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+}
+
+.test2 {
+  height: 146px;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
