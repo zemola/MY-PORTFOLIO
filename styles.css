@@ -1,7 +1,9 @@
 
 .main-body {
   background-image: url(header-shapesmobile.png);
-  background-reapeat: norepeat;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-left: 10px;
 }
 
 .toolbar {
@@ -9,6 +11,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 15px;
 }
 
 .body {
