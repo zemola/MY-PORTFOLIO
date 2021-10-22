@@ -1,6 +1,7 @@
 
 .main-body {
   background-image: url(header-shapesmobile.png);
+  background-reapeat: norepeat;
 }
 
 .toolbar {
