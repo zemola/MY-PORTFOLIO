@@ -66,4 +66,6 @@ h1 {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 375px;
+  height: 718px;
 }
