@@ -26,6 +26,8 @@ body {
   justify-content: space-between;
   padding-bottom: 15px;
   padding-top: 44px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .body {
@@ -46,10 +48,6 @@ body {
   width: 16px;
   left: 4px;
   top: 17px;
-}
-
-#contact {
-  color: #6070ff;
 }
 
 .intro {
@@ -119,6 +117,9 @@ h1 {
 .canopycounter {
   display: flex;
   justify-content: space-between;
+  height: 32px;
+  width: 236px;
+  top: 48px;
 }
 
 .counter {
@@ -222,11 +223,11 @@ h1 {
 }
 
 .about-myself h2 {
-  font-weight: bold;
   font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
   line-height: 52px;
-  color: #172b4d;
-  margin: 12px 0;
+  text-align: left;
 }
 
 .about-myself p {
@@ -235,14 +236,6 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-}
-
-.about-links ul {
-  display: flex;
-}
-
-.about-links ul li {
-  list-style: none;
 }
 
 .programs,
@@ -262,6 +255,7 @@ h1 {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
+  background: #fff;
 }
 
 .resume:hover {
@@ -339,4 +333,21 @@ h1 {
   padding: 16px 0;
   border-bottom: 1px solid #dfe1e6;
   margin: 12px 0;
+}
+
+.connect-link h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #7f8cff;
+  line-height: 24px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.icons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  justify-content: left;
 }
