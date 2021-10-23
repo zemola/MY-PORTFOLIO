@@ -67,12 +67,13 @@ h1 {
   text-align: left;
 }
 
-.test2 {
-  font-family: 'Poppins', sans-serif;
+.text2 p {
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 16px;
   line-height: 24px;
+  color: #344563;
+  padding-top: 10px;
 }
 
 .container {
@@ -236,6 +237,7 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding-top: 10px;
 }
 
 .programs,
