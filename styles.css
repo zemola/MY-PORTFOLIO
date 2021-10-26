@@ -152,6 +152,24 @@ h1 {
   margin: 12px 0;
 }
 
+.contactmeform .see-project button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 124px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
 .left-block .action button {
   display: flex;
   flex-direction: row;
@@ -354,25 +372,22 @@ h1 {
   justify-content: left;
 }
 
-
-
-.contactmeform{
+.contactmeform {
   display: flex;
   justify-content: center;
   flex-direction: column;
   height: 779px;
   width: 375px;
   top: 5410px;
-  border-radius: [object Object]px;
-  background: #6070FF;
+  background: #6070ff;
   border-radius: 100px 0 0 0;
   background-image: url(header-shapesmobile.png);
   padding-left: 25px;
 }
 
- .nobull {
+.nobull {
   list-style-type: none;
- }
+}
 
 .name {
   padding-top: 20px;
@@ -380,52 +395,52 @@ h1 {
 }
 
 .email {
-  
   padding-bottom: 10px;
-  }
+}
 
-#contactme{
+#contactme {
   color: white;
   text-align: center;
   font-weight: bold;
-  }
+}
 
-#contacttext{
+#contacttext {
   color: white;
   text-align: center;
-  }
+  border: none;
+}
 
 .message {
   padding-top: 20px;
   padding-bottom: 10px;
-  }
+  border: none;
+}
 
- #msg{
+#msg {
   height: 148px;
   width: 327px;
   padding-left: 10px;
   border-radius: 8px;
-  border: 1px solid #CFD8DC; 
- }
+  border: 1px solid #cfd8dc;
+}
 
 #mail {
   height: 48px;
   width: 327px;
   padding-left: 10px;
   border-radius: 8px;
- }
+}
 
-#user_name{
+#user_name {
   height: 48px;
   width: 327px;
   padding-left: 10px;
   border-radius: 8px;
- }
+}
 
-.cont{ 
+.cont {
   padding-top: 100px;
- }
- 
+}
 
 .contactmeform .see-project {
   width: 295px;
@@ -436,31 +451,13 @@ h1 {
   margin: 12px 0;
 }
 
-.contactmeform .see-project button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    width: 124px;
-    height: 48px;
-    background: #fff;
-    border: 1px solid #6070ff;
-    box-sizing: border-box;
-    border-radius: 8px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    color: #396df2;
-  }
-
 .contactmeform .see-project button:hover {
   background: #6070ff;
   color: #fff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.contactmeform .see-project button:focus b{
+.contactmeform .see-project button:focus {
   background: #2230d2;
   color: #fff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
