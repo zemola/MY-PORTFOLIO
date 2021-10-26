@@ -222,13 +222,39 @@
 
     <div class="skills">
       <div class="skill">
-        <h4>Frameworks</h4>
+        <h4>Skills</h4>
         <svg class="w-6 h-6 arrow-down" fill="none" stroke="currentColor" viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
         </svg>
       </div>
     </div>
+
+    <!-- The "Contact form" section (placed after the About myself): -->
+    
+    <section class="cont">
+      <div class="contactmeform">
+        <h2 id="contactme">Contact me</h2>
+        <p id="contacttext">If you have an appliction you are intrested <br> in developing, a feature that you need
+          <br>built or a projct that needs coding. <br>i'd love to help with it </p>
+        <form class="logform" action="https://formspree.io/f/xnqlywor" method="post">
+          <ul class="nobull">
+            <li class="name">
+              <input type="text" id="user_name" name="user_name" placeholder="Name" maxlength="30" required>
+            </li>
+            <li class="email">
+              <input type="email" id="mail" name="user_email" placeholder="E-mail" required>
+            </li>
+            <li class="messsage">
+              <textarea id="msg" name="user_message" placeholder="Write your message here" maxlength="500" required></textarea>
+            </li>
+          </ul>
+          <div class="see-project">
+            <button type="submit">See Project</button>
+          </div>
+        </form>
+      </div>
+    </section>
   </section>
 </body>
 
