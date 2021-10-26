@@ -12,11 +12,10 @@
 - Technologies used
 - Figma
 
-[Live Demo Link](https://zemola.github.io/MY-PORTFOLIO/)
-
 ## Live Demo
 
-[Live Demo Link](https://kingsleyibe.github.io/Microverse-Portfolio-Assignment/)
+[Live Demo Link](https://zemola.github.io/MY-PORTFOLIO/)
+
 
 
 ## Getting Started
