@@ -61,11 +61,11 @@ body {
 }
 
 .intro-text {
-  color: #091E42;
+  color: #091e42;
 }
 
 .abtmyself {
-  color: #091E42;
+  color: #091e42;
 }
 
 .introdesktop {
@@ -400,7 +400,6 @@ h1 {
   padding: 16px 0;
   border-bottom: 1px solid #dfe1e6;
   margin: 12px 0;
-  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -683,8 +682,6 @@ textarea {
     color: #172b4d;
     display: block;
   }
-
-
 
   /* About Styles */
   .desktopsize {
