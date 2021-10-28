@@ -15,6 +15,7 @@ body {
 .main-body {
   background-image: url(header-shapesmobile.png);
   background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 30px;
   padding-left: 10px;
 }
@@ -101,6 +102,17 @@ h1 {
   border-radius: 16px;
 }
 
+.works .workflip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  margin: 44px 0;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
 .works .work-title {
   margin: 12px 0;
   font-style: normal;
@@ -111,6 +123,11 @@ h1 {
 }
 
 .work ul {
+  display: flex;
+  font-size: 10px;
+}
+
+.workflip ul {
   display: flex;
   font-size: 10px;
 }
@@ -323,6 +340,11 @@ h1 {
   height: 25px;
 }
 
+.desktopad1, .desktopad2,
+.desktopad3, .desktopad4 {
+  display: none;
+}
+
 .languages {
   display: grid;
   background: #fff;
@@ -467,4 +489,181 @@ h1 {
   background: #e5e5e5;
   color: #5e6c84;
   border: 1px solid #c1c7d0;
+
+}
+
+.desktop-menu{
+  display: none;
+}
+.desktopad1{
+  display: none;
+}
+
+.desktop_show{
+  display: none;
+}
+.desktoptext1, .faceboktext {
+  display: none;
+}
+.fbtext{
+  display: none;
+}
+
+.ubertext {
+  display: none;
+}
+
+
+
+/* Desktop Screen - All scrren sizes 600px and onwards */
+
+@media (min-width: 992px) {
+ 
+  /* Header Styles */
+ 
+  header {
+    padding: 25px 10%;
+    background-color: white;
+    display: flex;
+  }
+
+  header .meanu-bar {
+    display: none;
+  }
+
+ .My-logo { height: 20px;
+width: 116px;
+left: 12px;
+top: 10px;
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+
+} 
+
+  .desktop-menu {
+    display: block;
+  }
+
+  .desktop-menu ul {
+    display: flex;
+   list-style-type:none;
+  }
+
+  .desktop-menu ul li {
+    margin: 0 16px;
+    text-decoration: none;
+  }
+
+  .connect-link a {
+    font-size: 16px;
+  }
+
+  .desktop-menu ul li a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin: 0 10px;
+  }
+  
+  .main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 916px;
+  background-color: white;
+  background-image: url(header-desktop.png);
+
+  border-radius: (0 0 100px 0);
+  padding-left: 260px;
+  padding-right: 260px;
+  padding-bottom: 178.46px;
+  
+  }
+  
+  
+  .desktopad1 {
+    display: flex;
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+
+  }
+  .right-block{
+    display: none;
+  }
+.left-block {
+  height: 445px;
+  width: 544px;
+  left: 590px;
+  top: 24px;
+  border-radius: 0px;
+  padding: 24px;
+  
+}
+ 
+.canopycounter{
+  height: 40px;
+width: 320px;
+left: 0px;
+top: 58px;
+border-radius: 0px;
+
+}
+  
+  .works .workflip {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 44px auto;
+    border-radius: 24px;
+    padding: 24px;
+    width: 1156px;
+    height: 496px;
+
+  }
+
+  .works .work {
+    width: 1156px;
+    height: 496px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 44px auto;
+    border-radius: 24px;
+    padding: 24px;
+  }
+
+  .left-block .desktop_show {
+    
+    padding-top: 70px;
+    margin: 12px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    display: block;
+}
+
+  .works .work-title {
+    display: none;
+  }
+
+  .canopytext {
+     display: none;
+  }
+
+  .fbtext {
+  display: block;
+  }
+  .ubertext{
+    display: block;
+  }
 }
