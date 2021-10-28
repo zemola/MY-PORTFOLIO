@@ -2,7 +2,7 @@
 
 > This is to showcase myself to the whole world what I am capable of. 
 
-![screenshot](./S![Screenshot ](MyPortfolio.PNG)Screenshot.png)
+![screenshot](./S![Screenshot ](DesktopviewSS.PNG)Screenshot.png)
 
 ## Built With
 
