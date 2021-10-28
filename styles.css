@@ -60,6 +60,14 @@ body {
   text-align: left;
 }
 
+.intro-text {
+  color: #091E42;
+}
+
+.abtmyself {
+  color: #091E42;
+}
+
 .introdesktop {
   display: none;
 }
@@ -283,6 +291,17 @@ h1 {
 .frameworks,
 .skills {
   width: 100%;
+  font-weight: lighter;
+}
+
+.skillstext,
+.frameworktext {
+  color: #253858;
+  font-weight: lighter;
+}
+
+.backyear {
+  font-weight: lighter;
 }
 
 .resume {
@@ -381,6 +400,12 @@ h1 {
   padding: 16px 0;
   border-bottom: 1px solid #dfe1e6;
   margin: 12px 0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
 }
 
 .connect-link h4 {
@@ -403,7 +428,6 @@ h1 {
 .footer-section {
   padding: 114px 24px 20px 24px;
   align-items: center;
-  background-color: #6070ff;
   background-image: url("contact-desktop.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -659,6 +683,8 @@ textarea {
     color: #172b4d;
     display: block;
   }
+
+
 
   /* About Styles */
   .desktopsize {
