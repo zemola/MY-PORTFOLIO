@@ -643,10 +643,6 @@ textarea {
     animation-delay: 2s;
   }
 
-  /* @keyframes imagemove {
-    
-  } */
-
   .right-block {
     display: none;
   }
@@ -707,7 +703,6 @@ textarea {
     display: block;
   }
 
-  /* About Styles */
   .desktopsize {
     height: 800px;
     padding: 114px 12%;
