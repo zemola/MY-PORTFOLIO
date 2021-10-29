@@ -536,6 +536,13 @@ textarea {
     padding: 25px 10%;
     background-color: white;
     display: flex;
+    animation-name: test;
+    animation-duration: 10s;
+  }
+
+  @keyframes test {
+    form {background-color: white;}
+    to { background-color: thistle;}   
   }
 
   header .meanu-bar {
@@ -551,6 +558,16 @@ textarea {
     font-weight: 700;
     text-align: center;
   }
+
+  /* .My-logo {
+    height: 20px;
+    width: 116px;
+    left: 12px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  } */
 
   .introdesktop {
     display: block;
@@ -621,7 +638,14 @@ textarea {
     left: 24px;
     top: 24px;
     border-radius: 8px;
+    animation-name: imagemove;
+    animation-duration: 10s;
+    animation-delay: 2s;
   }
+
+  /* @keyframes imagemove {
+    
+  } */
 
   .right-block {
     display: none;
