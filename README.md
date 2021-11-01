@@ -2,7 +2,7 @@
 
 > This is to showcase myself to the whole world what I am capable of. 
 
-![screenshot](MyPortfolio.PNG)
+![screenshot](image\DesktopviewSS.png)SCREENSHOT OF DESKTOP VERSION )
 
 ## Built With
 
