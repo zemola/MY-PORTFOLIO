@@ -10,7 +10,6 @@
 - CSS
 - Git and Github
 - Technologies used
-- Figma
 
 ## Live Demo
 
@@ -31,7 +30,6 @@ STEP 1
 5. you will be able to access my project locally.
 
 STEP 2
-
 1. Open command prompt
 2. go to the designated folder where you want to clone the repository to.
 3. enter  git clone https://github.com/zemola/MY-PORTFOLIO.git
