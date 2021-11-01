@@ -541,8 +541,8 @@ textarea {
   }
 
   @keyframes test {
-    form {background-color: white;}
-    to { background-color: thistle;}   
+    form { background-color: white; }
+    to { background-color: thistle; }
   }
 
   header .meanu-bar {
@@ -558,16 +558,6 @@ textarea {
     font-weight: 700;
     text-align: center;
   }
-
-  /* .My-logo {
-    height: 20px;
-    width: 116px;
-    left: 12px;
-    top: 10px;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-  } */
 
   .introdesktop {
     display: block;
