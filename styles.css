@@ -440,8 +440,9 @@ footer .footer-info h3 {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  color: #fff;
+  color: #ffff;
   text-align: center;
+  background: #6070ff;
 }
 
 .footer-info-text {
@@ -450,8 +451,9 @@ footer .footer-info h3 {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
+  color: #ffff;
   margin: 12px 0;
+  background: #6070ff;
 }
 
 footer form input,
