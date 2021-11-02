@@ -320,13 +320,13 @@ h1 {
 
 .resume:hover {
   background: #6070ff;
-  color: #fff;
+  color: #ffff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .resume:focus {
   background: #2230d2;
-  color: #fff;
+  color: #ffff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
