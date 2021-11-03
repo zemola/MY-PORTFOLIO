@@ -43,6 +43,7 @@ body {
   line-height: 20px;
   text-align: center;
   color: #6070ff;
+  filter: contrast(14.5);
 }
 
 .menu-bar {
@@ -253,7 +254,7 @@ h1 {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #6070ff;
+  color: #0025db;
   letter-spacing: 0.03em;
 }
 
@@ -320,13 +321,13 @@ h1 {
 
 .resume:hover {
   background: #6070ff;
-  color: #fff;
+  color: #ffff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .resume:focus {
   background: #2230d2;
-  color: #fff;
+  color: #ffff;
   box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -410,7 +411,7 @@ h1 {
 .connect-link h4 {
   text-transform: uppercase;
   font-weight: 700;
-  color: #7f8cff;
+  color: #1a30ff;
   line-height: 24px;
   text-decoration: none;
   padding-top: 10px;
@@ -439,8 +440,9 @@ footer .footer-info h3 {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  color: #fff;
+  color: #ffff;
   text-align: center;
+  background: #6070ff;
 }
 
 .footer-info-text {
@@ -449,8 +451,9 @@ footer .footer-info h3 {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
+  color: #ffff;
   margin: 12px 0;
+  background: #6070ff;
 }
 
 footer form input,
