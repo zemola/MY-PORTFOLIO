@@ -625,25 +625,83 @@ textarea {
 /* Desktop Screen - All scrren sizes 600px and onwards */
 @media (min-width: 992px) {
   /* Header Styles */
+  
+  
   header {
-    padding: 25px 10%;
-    background-color: white;
-    display: flex;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
   }
 
-  header .meanu-bar {
+  header .my-logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070ff;
+    position: inherit;
+  }
+
+
+
+  .menu-bar {
+    padding: 25px 115px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktop-menu {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 20px;
+    justify-content: end;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    margin-top: 0;
+    padding: 0;
+    background-color: #fff;
+    text-decoration: none;
+  }
+
+  .desktop-menu ul {
+    text-decoration: none;
+  }
+
+  .desktop-menu .desktop-links {
+    padding: 0 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .desktop-menu li {
+    padding: 0;
+  }
+
+  .menu-toggle .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #6070ff;
+    margin: 8px auto;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #mobile-menu {
+    position: absolute;
+    top: 10%;
+    right: 5%;
     display: none;
   }
 
-  .My-logo {
-    height: 20px;
-    width: 116px;
-    left: 12px;
-    top: 10px;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
+  .toggle-bar .bar {
+    display: none;
   }
+
 
   .introdesktop {
     display: block;
