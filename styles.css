@@ -468,3 +468,283 @@ h1 {
   color: #5e6c84;
   border: 1px solid #c1c7d0;
 }
+mobile-menu
+
+.desktop-menu {
+  display: none;
+}
+
+.desktopad1 {
+  display: none;
+}
+
+.desktop_show {
+  display: none;
+}
+
+.desktoptext1,
+.faceboktext {
+  display: none;
+}
+
+.fbtext {
+  display: none;
+}
+
+.ubertext {
+  display: none;
+}
+
+/* Desktop Screen - All scrren sizes 600px and onwards */
+@media (min-width: 992px) {
+  /* Header Styles */
+  header {
+    padding: 25px 10%;
+    background-color: white;
+    display: flex;
+    animation-name: test;
+    animation-duration: 10s;
+  }
+
+  @keyframes test {
+    form { background-color: white; }
+    to { background-color: thistle; }
+  }
+
+  header .meanu-bar {
+    display: none;
+  }
+
+  .My-logo {
+    height: 20px;
+    width: 116px;
+    left: 12px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .introdesktop {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    text-align: left;
+    letter-spacing: 0.3700000047683716px;
+  }
+
+  .intro {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: block;
+  }
+
+  .desktop-menu ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .desktop-menu ul li {
+    margin: 0 16px;
+  }
+
+  .footer .connect-link {
+    padding-top: 20px;
+  }
+
+  .desktop-menu ul li a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .footer .connect-link a {
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: blue;
+  }
+
+  .main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 916px;
+    background-color: white;
+    background-image: url("header-desktop.png");
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-bottom: 178.46px;
+  }
+
+  .desktopad1 {
+    display: flex;
+    height: 448px;
+    width: 544px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+    animation-name: imagemove;
+    animation-duration: 10s;
+    animation-delay: 2s;
+  }
+
+  .right-block {
+    display: none;
+  }
+
+  .left-block {
+    height: 445px;
+    width: 544px;
+    left: 590px;
+    top: 24px;
+    padding: 24px;
+  }
+
+  .canopycounter {
+    height: 40px;
+    width: 320px;
+    top: 58px;
+  }
+
+  .works .workflip {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 44px auto;
+    border-radius: 24px;
+    padding: 24px;
+    width: 1156px;
+    height: 496px;
+  }
+
+  .text2 {
+    display: flex;
+    height: 98px;
+    width: 920px;
+    top: 134px;
+  }
+
+  .works .work {
+    width: 1156px;
+    height: 496px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 44px auto;
+    border-radius: 24px;
+    padding: 24px;
+  }
+
+  .left-block .desktop_show {
+    padding-top: 70px;
+    margin: 12px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    display: block;
+  }
+
+  .desktopsize {
+    height: 800px;
+    padding: 114px 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-wrapper.about-programs {
+    width: 684px;
+    margin-left: 25px;
+  }
+
+  .about-texts p {
+    margin-right: 25px;
+  }
+
+  .programs {
+    display: grid;
+  }
+
+  .languages {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .language {
+    width: 122px;
+    height: 120px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .language img {
+    text-align: left;
+  }
+
+  .languages .language p {
+    margin: 16px 0;
+  }
+
+  footer {
+    width: 801px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .footer-info {
+    width: 569px;
+    margin: auto;
+  }
+
+  .contact-button {
+    margin-top: 0;
+  }
+
+  footer form input,
+  textarea {
+    width: 447px;
+    margin: 27px auto;
+    border-radius: 2px;
+  }
+
+  .desktoptext1 {
+    display: block;
+  }
+
+  .mobiletext1 {
+    display: none;
+  }
+
+  .works .work-title {
+    display: none;
+  }
+
+  .canopytext {
+    display: none;
+  }
+
+  .fbtext {
+    display: block;
+  }
+
+  .ubertext {
+    display: block;
+  }
