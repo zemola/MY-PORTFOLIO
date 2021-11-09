@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 * {
   margin: 0;
@@ -36,6 +36,96 @@ body {
   width: 375px;
 }
 
+header {
+  position: relative;
+  background: #fff;
+  padding: 26px 28px;
+  height: 82px;
+}
+
+header .my-logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  position: absolute;
+}
+
+.desktop-menu {
+  display: flex;
+  flex-direction: column;
+  background: #6070ffc7;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  padding: 40px 28px;
+  top: 0;
+  left: -100%;
+  opacity: 0;
+  transform: all 0.5s ease-in-out;
+  position: fixed;
+  backdrop-filter: blur(5px);
+}
+
+.desktop-menu li {
+  padding: 20px 0;
+}
+
+.desktop-menu .desktop-links {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.desktop-menu.active {
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+#mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 3%;
+  margin-top: 10px;
+  z-index: 99;
+  transition: translate(5%, 20%);
+}
+
+.toggle-bar {
+  cursor: pointer;
+}
+
+.toggle-bar .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #6070ff;
+  margin: 8px auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.toggle-bar .bar {
+  display: block;
+}
+
+/* Toggles the ha,mburger menu */
+header .toggle-bar.is-active .bar:nth-child(2) {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+header .toggle-bar.is-active .bar:nth-child(3) {
+  transform: translateY(-22px) rotate(-45deg);
+  transition: all 0.5s ease-in-out;
+  background: #fff;
+  position: fixed;
+  margin-top: 20px;
+}
+
 .My-logo {
   font-size: 18px;
   font-style: normal;
@@ -53,7 +143,7 @@ body {
 }
 
 .intro {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -557,7 +647,7 @@ textarea {
 
   .introdesktop {
     display: block;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
