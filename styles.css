@@ -625,8 +625,7 @@ textarea {
 /* Desktop Screen - All scrren sizes 600px and onwards */
 @media (min-width: 992px) {
   /* Header Styles */
-  
-  
+
   header {
     width: 100%;
     background-color: #fff;
@@ -641,8 +640,6 @@ textarea {
     color: #6070ff;
     position: inherit;
   }
-
-
 
   .menu-bar {
     padding: 25px 115px;
@@ -701,7 +698,6 @@ textarea {
   .toggle-bar .bar {
     display: none;
   }
-
 
   .introdesktop {
     display: block;
