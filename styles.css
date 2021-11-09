@@ -643,6 +643,10 @@ textarea {
     text-decoration: none;
   }
 
+  @keyframes test {
+    form { background-color: white; }
+    to { background-color: thistle; }
+  }
   .desktop-menu .desktop-links {
     padding: 0 16px;
     font-style: normal;
