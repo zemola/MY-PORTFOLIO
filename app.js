@@ -25,6 +25,6 @@ aboutUs.addEventListener('click', () => {
   closeMobileMenu();
 });
 
-contactLink.addEventListener("click", () => {
+contactLink.addEventListener('click', () => {
   closeMobileMenu();
 });
