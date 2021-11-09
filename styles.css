@@ -12,29 +12,6 @@ body {
   background: #f7f7f9;
 }
 
-.main-body {
-  background-image: url(header-shapesmobile.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 30px;
-  padding-left: 10px;
-}
-
-.toolbar {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-bottom: 15px;
-  padding-top: 44px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.body {
-  height: 718px;
-  width: 375px;
-}
 
 header {
   position: relative;
@@ -106,16 +83,22 @@ header .my-logo {
   background-color: #6070ff;
   margin: 8px auto;
   transition: all 0.5s ease-in-out;
-}
-
-.toggle-bar .bar {
   display: block;
 }
+
 
 /* Toggles the ha,mburger menu */
 header .toggle-bar.is-active .bar:nth-child(2) {
   opacity: 0;
   transition: all 0.5s ease-in-out;
+}
+
+header .toggle-bar.is-active .bar:nth-child(1) {
+  transform: translateY(-4px) rotate(45deg);
+  transition: all 0.5s ease-in-out;
+  background: #fff;
+  position: fixed;
+  margin-top: 20px;
 }
 
 header .toggle-bar.is-active .bar:nth-child(3) {
@@ -126,20 +109,18 @@ header .toggle-bar.is-active .bar:nth-child(3) {
   margin-top: 20px;
 }
 
-.My-logo {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
-  text-align: center;
-  color: #6070ff;
-  filter: contrast(14.5);
+
+.main-body {
+  background-image: url(header-shapesmobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  padding-left: 10px;
 }
 
-.menu-bar {
-  width: 16px;
-  left: 4px;
-  top: 17px;
+.body {
+  height: 718px;
+  width: 375px;
 }
 
 .intro {
@@ -597,9 +578,6 @@ textarea {
   border: 1px solid #c1c7d0;
 }
 
-.desktop-menu {
-  display: none;
-}
 
 .desktopad1 {
   display: none;
@@ -622,7 +600,7 @@ textarea {
   display: none;
 }
 
-/* Desktop Screen - All scrren sizes 600px and onwards */
+/* Desktop Screen - All scrren sizes 992px and onwards */
 @media (min-width: 992px) {
   /* Header Styles */
 
@@ -639,6 +617,12 @@ textarea {
     line-height: 20px;
     color: #6070ff;
     position: inherit;
+  }
+
+  header {
+    position: relative;
+    background: #fff;
+    padding: 0;
   }
 
   .menu-bar {
@@ -663,10 +647,6 @@ textarea {
     text-decoration: none;
   }
 
-  .desktop-menu ul {
-    text-decoration: none;
-  }
-
   .desktop-menu .desktop-links {
     padding: 0 16px;
     font-style: normal;
@@ -680,7 +660,7 @@ textarea {
     padding: 0;
   }
 
-  .menu-toggle .bar {
+  .toggle-bar .bar {
     width: 30px;
     height: 3px;
     background-color: #6070ff;
@@ -718,28 +698,12 @@ textarea {
     display: block;
   }
 
-  .desktop-menu ul {
-    display: flex;
-    list-style-type: none;
-    text-decoration: none;
-  }
-
   .desktop-menu ul li {
     margin: 0 16px;
   }
 
   .footer .connect-link {
     padding-top: 20px;
-  }
-
-  .desktop-menu ul li a {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #344563;
-    margin: 0 10px;
-    text-decoration: none;
   }
 
   .footer .connect-link a {
