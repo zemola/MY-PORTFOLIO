@@ -781,8 +781,8 @@ textarea {
 
   /* About Styles */
   .desktopsize {
-    height: 800px;
-    padding: 114px 12%;
+    height: 550px;
+    padding: 80px 12%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
