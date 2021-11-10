@@ -97,6 +97,10 @@
   padding: 10px 10px;
 }
 
+.tonic-contents .network i {
+  color: #6070ff;
+}
+
 .tonic-contents .network a {
   border: 1px solid #6070ff;
   border-radius: 8px;
