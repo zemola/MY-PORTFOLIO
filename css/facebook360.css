@@ -92,9 +92,9 @@
 }
 
 .facebook360-card-modal .technologies {
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-  }
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
 
 .facebook360-contents .network {
   display: flex;
@@ -126,5 +126,4 @@
     width: 80%;
     max-width: 90%;
   }
-
 }

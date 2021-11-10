@@ -146,12 +146,9 @@ closeFacebook360CardModal.addEventListener('click', () => {
   facebook360CardModalContainer.classList.remove('show');
 });
 
-
 // Ubernavigation Modal Details
 const openUbernavigationCardModal = document.querySelector('#ubernavigation-modal-open');
-const ubernavigationCardModalContainer = document.querySelector(
-  '.ubernavigation-card-modal-container'
-);
+const ubernavigationCardModalContainer = document.querySelector('.ubernavigation-card-modal-container');
 const closeUbernavigationCardModal = document.querySelector('#ubernavigation-card-modal-close');
 
 openUbernavigationCardModal.addEventListener('click', (e) => {
