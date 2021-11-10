@@ -96,6 +96,12 @@
   margin-bottom: 10px;
 }
 
+.ubernavigation-contents .network svg {
+  width: 20px;
+  height: 20px;
+  color: #6070ff;
+}
+
 .ubernavigation-contents .network {
   display: flex;
   justify-content: space-around;
