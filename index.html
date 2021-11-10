@@ -16,6 +16,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./css/tonic.css">
+  <link rel="stylesheet" href="./css/multipost.css">
+  <link rel="stylesheet" href="./css/facebook360.css">
+  <link rel="stylesheet" href="./css/ubernavigation.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -87,6 +91,7 @@
     </div>
   </section>
 
+  <!-- Card section to the project -->
   <section class="works" id="work">
     <div class="work">
       <div class="right-block">
@@ -119,13 +124,57 @@
           <li class="tag">javascript</li>
         </ul>
         <div class="action">
-          <button type="button">See Project</button>
+          <button type="button" id="tonic-modal-open">See Project</button>
+        </div>
+      </div>
+
+      <!-- Tonic card modal -->
+      <div class="tonic-card-modal-container" id="tonic-card-modal-container">
+        <div class="tonic-card-modal">
+          <h1 class="tonic-title"></h1>
+          <div class="tonic-stacks">
+            <ul>
+              <li class="tonic-stack1"></li>
+              <li class="tonic-stack2"></li>
+              <li class="tonic-stack3"></li>
+            </ul>
+          </div>
+          <div class="tonic-image-holder">
+            <img src="" alt="tonic" class="tonic-image" />
+          </div>
+          <div class="tonic-contents">
+            <p class="tonic-description"></p>
+            <div class="tonic-subcontent">
+            <div class="technologies">
+              <ul>
+                <li class="tonic-html"></li>
+                <li class="tonic-css"></li>
+                <li class="tonic-javascript"></li>
+                <li class="tonic-ruby">ruby on rails</li>
+              </ul>
+            </div>
+            <div class="network">
+              <a href="https://zemola.github.io/MY-PORTFOLIO/" target="_blank"><span>See Live</span>
+                <svg style="width: 20px; height: 20px; color: #6070ff" class="w-6 h-6" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg></a>
+              <a href="https://github.com/zemola/MY-PORTFOLIO.git" target="_blank">
+                <span>See Source</span>
+                <i style="color: #6070ff" class="fab fa-github-square network-link"></i>
+              </a>
+            </div>
+          </div>
+          </div>
+          <button id="tonic-card-modal-close" type="button">X</button>
         </div>
       </div>
     </div>
+
     <div class="workflip">
       <div class="right-block">
-        <img src="image/multistory.png" alt="MultiStorey Project 1" />
+        <img src="image/multistory.png" alt="MultiStory Project 1" />
       </div>
       <div class="desktopad1">
         <img src="image/desktopad2.png" alt="Portfolio image 2" />
@@ -162,10 +211,14 @@
           <li class="tag">javascript</li>
         </ul>
         <div class="action">
-          <button type="button">See Project</button>
+          <button type="button" id="multipost-modal-open">See Project</button>
         </div>
       </div>
+
+      <!-- Multi-Post Card modal -->
+      
     </div>
+
 
     <div class="work">
       <div class="right-block">
@@ -203,10 +256,15 @@
           <li class="tag">javascript</li>
         </ul>
         <div class="action">
-          <button type="button">See Project</button>
+          <button type="button" id="facebook360-modal-open">See Project</button>
         </div>
       </div>
+      
+      <!-- Facbook 360 Card modal -->
+    
+      
     </div>
+    
 
     <div class="workflip">
       <div class="right-block">
@@ -244,10 +302,14 @@
           <li class="tag">javascript</li>
         </ul>
         <div class="action">
-          <button type="button">See Project</button>
+          <button type="button" id="ubernavigation-modal-open">See Project</button>
         </div>
       </div>
-    </div>
+      <!-- uber navigation Card modal -->
+     
+      
+
+    </div> 
   </section>
 
   <section class="about-myself" id="about-myself">
@@ -361,6 +423,7 @@
   </section>
 
   <script src="app.js"></script>
+  <script src="modal.js"></script>
 </body>
 
 </html>
