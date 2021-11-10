@@ -81,3 +81,59 @@ document.querySelector('.multipost-html').textContent = projects[1].technologies
 document.querySelector('.multipost-css').textContent = projects[1].technologies[1];
 document.querySelector('.multipost-javascript').textContent = projects[1].technologies[2];
 document.querySelector('.multipost-ruby').textContent = projects[1].technologies[3];
+
+// Facebook360 Modal Details
+const openFacebook360CardModal = document.querySelector('#facebook360-modal-open');
+const facebook360CardModalContainer = document.querySelector('.facebook360-card-modal-container');
+const closeFacebook360CardModal = document.querySelector('#facebook360-card-modal-close');
+
+openFacebook360CardModal.addEventListener('click', () => {
+  facebook360CardModalContainer.classList.add('show');
+});
+
+closeFacebook360CardModal.addEventListener('click', () => {
+  facebook360CardModalContainer.classList.remove('show');
+});
+
+document.querySelector('.facebook360-title').textContent = projects[2].name;
+
+document.querySelector('.facebook360-stack1').textContent =
+  projects[2].stacks[0].toUpperCase();
+document.querySelector('.facebook360-stack2').textContent = projects[2].stacks[1];
+document.querySelector('.facebook360-stack3').textContent = projects[2].stacks[2];
+document.querySelector('.facebook360-description').textContent =
+  projects[2].description;
+document.querySelector('.facebook360-image').src = projects[2].featuredImage;
+document.querySelector('.facebook360-html').textContent = projects[2].technologies[0];
+document.querySelector('.facebook360-css').textContent = projects[2].technologies[1];
+document.querySelector('.facebook360-javascript').textContent =
+  projects[2].technologies[2];
+document.querySelector('.facebook360-ruby').textContent = projects[2].technologies[3];
+
+// Ubernavigation Modal Details
+const openUbernavigationCardModal = document.querySelector('#ubernavigation-modal-open');
+const ubernavigationCardModalContainer = document.querySelector('.ubernavigation-card-modal-container');
+const closeUbernavigationCardModal = document.querySelector('#ubernavigation-card-modal-close');
+
+openUbernavigationCardModal.addEventListener('click', () => {
+  ubernavigationCardModalContainer.classList.add('show');
+});
+
+closeUbernavigationCardModal.addEventListener('click', () => {
+  ubernavigationCardModalContainer.classList.remove('show');
+});
+
+document.querySelector('.ubernavigation-title').textContent = projects[3].name;
+
+document.querySelector('.ubernavigation-stack1').textContent =
+  projects[3].stacks[0].toUpperCase();
+document.querySelector('.ubernavigation-stack2').textContent = projects[3].stacks[1];
+document.querySelector('.ubernavigation-stack3').textContent = projects[3].stacks[2];
+document.querySelector('.ubernavigation-description').textContent =
+  projects[3].description;
+document.querySelector('.ubernavigation-image').src = projects[3].featuredImage;
+document.querySelector('.ubernavigation-html').textContent = projects[3].technologies[0];
+document.querySelector('.ubernavigation-css').textContent = projects[3].technologies[1];
+document.querySelector('.ubernavigation-javascript').textContent =
+  projects[3].technologies[2];
+document.querySelector('.ubernavigation-ruby').textContent = projects[3].technologies[3];

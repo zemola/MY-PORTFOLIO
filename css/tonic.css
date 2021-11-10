@@ -119,7 +119,11 @@
   
   @media (max-width: 992px) {
     .tonic-card-modal {
-      width: 80%;
+      width: 90%;
       max-width: 90%;
+    }
+
+    .tonic-card-modal .technologies {
+      padding-bottom: 20px;
     }
   }
