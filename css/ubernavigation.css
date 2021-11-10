@@ -91,6 +91,11 @@
   opacity: 0.5;
 }
 
+.ubernavigation-card-modal .technologies {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
 .ubernavigation-contents .network {
   display: flex;
   justify-content: space-around;
