@@ -540,6 +540,13 @@ textarea {
   padding: 15px 16px;
 }
 
+.Email-error {
+  color: red;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
 .contact-button {
   width: 162px;
   height: 48px;
