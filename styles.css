@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   background: #f7f7f9;
 }
@@ -126,7 +126,7 @@ header .toggle-bar.is-active .bar:nth-child(3) {
 }
 
 .intro {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -501,7 +501,7 @@ h1 {
 .footer-section {
   padding: 114px 24px 20px 24px;
   align-items: center;
-  background-image: url("contact-desktop.png");
+  background-image: url('contact-desktop.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -532,7 +532,7 @@ footer .footer-info h3 {
 footer form input,
 textarea {
   display: block;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   margin-top: 18px;
   border: none;
@@ -540,7 +540,7 @@ textarea {
   padding: 15px 16px;
 }
 
-.Email-error {
+.email-error {
   color: red;
   font-size: 16px;
   letter-spacing: 1px;
@@ -681,7 +681,7 @@ textarea {
 
   .introdesktop {
     display: block;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -711,7 +711,7 @@ textarea {
     justify-content: center;
     height: 916px;
     background-color: white;
-    background-image: url("header-desktop.png");
+    background-image: url('header-desktop.png');
     padding-left: 260px;
     padding-right: 260px;
     padding-bottom: 178.46px;
