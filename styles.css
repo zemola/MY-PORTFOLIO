@@ -540,6 +540,10 @@ textarea {
   padding: 15px 16px;
 }
 
+.email-submission-error {
+  margin-bottom: 20px;
+}
+
 .email-error {
   color: red;
   font-size: 16px;
