@@ -23,26 +23,27 @@
 .ubernavigation-card-modal {
   width: 50%;
   max-height: 94%;
-  padding: 30px 50px;
+  padding: 30px 20px;
   background-color: #fff;
   border-radius: 24px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  position: relative;
+  position: fixed;
 }
 
 .ubernavigation-card-modal h1 {
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
+  position: relative;
+  font-size: 20px;
+  line-height: 42px;
   color: #091e42;
 }
 
 .ubernavigation-stacks ul li {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 13px;
+  line-height: 20px;
   color: #6b778c;
   list-style-type: disc;
   margin-right: 32px;
@@ -60,11 +61,10 @@
 
 .ubernavigation-image-holder img {
   width: 100%;
-  max-height: 450px;
+  max-height: 400px;
 }
 
 .ubernavigation-card-modal p {
-  margin: 20px 0;
   opacity: 0.8;
 }
 
@@ -83,7 +83,7 @@
 .ubernavigation-card-modal button {
   border: none;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -91,24 +91,36 @@
   opacity: 0.5;
 }
 
-.ubernavigation-card-modal .technologies {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+.ubernavigation-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }
 
-.ubernavigation-contents .network svg {
-  width: 20px;
-  height: 20px;
-  color: #6070ff;
+.ubernavigation-description {
+  width: 60%;
+  margin: 0 10px;
 }
 
 .ubernavigation-contents .network {
   display: flex;
   justify-content: space-around;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  height: min-content;
 }
 
 .ubernavigation-contents .network i {
   color: #6070ff;
+}
+
+.see-live {
+  margin-right: 10px;
+}
+
+.see-source {
+  margin-right: 10px;
 }
 
 .ubernavigation-contents .network a {
@@ -120,9 +132,16 @@
   padding: 8px;
 }
 
+.ubernavigation-contents .network svg {
+  width: 20px;
+  height: 20px;
+  color: #6070ff;
+}
+
 .ubernavigation-contents .network a span {
   color: #6070ff;
   margin-right: 6px;
+  position: static;
 }
 
 .ubernavigation-card-modal button:hover {
@@ -133,7 +152,46 @@
 
 @media (max-width: 992px) {
   .ubernavigation-card-modal {
-    width: 80%;
+    width: 90%;
     max-width: 90%;
+    height: 90%;
+    padding: 30px 20px;
+  }
+
+  .ubernavigation-card-modal h1 {
+    font-style: normal;
+    font-weight: bold;
+    position: relative;
+    font-size: 15px;
+    line-height: 30px;
+    color: #091e42;
+  }
+
+  .ubernavigation-card-modal .technologies ul li {
+    font-size: 10px;
+  }
+
+  .ubernavigation-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+
+  .ubernavigation-contents .network {
+    padding: 10px 10px;
+    margin-top: 20px;
+    height: min-content;
+  }
+
+  .ubernavigation-description {
+    width: 100%;
+    margin: 0 10px;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .ubernavigation-contents .network a span {
+    font-size: 10px;
   }
 }

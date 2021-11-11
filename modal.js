@@ -14,7 +14,7 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
     featuredImage: './image/desktopad2.png',
-    technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
+    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
     featuredImage: './image/desktopad3.png',
-    technologies: ['html', 'Ruby and rails', 'css', 'javascript'],
+    technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
     stacks: ['canopy', 'Backend Dev', '2015'],
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
     featuredImage: './image/desktopad4.png',
-    technologies: ['html', 'css', 'javascript', 'Ruby and rails'],
+    technologies: ['html', 'css', 'javascript', 'Ruby on rails'],
     stacks: ['canopy', 'Backend Dev', '2015'],
   },
 ];
