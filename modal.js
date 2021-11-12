@@ -68,7 +68,7 @@ openTonicCardModal.addEventListener('click', (e) => {
   document.querySelector('.tonic-ruby').textContent = ruby;
 
   tonicCardModalContainer.classList.add('show');
-});
+
 
 closeTonicCardModal.addEventListener('click', () => {
   tonicCardModalContainer.classList.remove('show');
