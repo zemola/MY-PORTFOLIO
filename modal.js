@@ -54,7 +54,7 @@ openTonicCardModal.addEventListener('click', (e) => {
   } = tonicData;
 
   const [html, css, javascript, ruby] = projectTechnologies;
-  const [canopy, backend, year] = projectStacks;
+  const[canopy, backend, year] = projectStacks;}
 
   document.querySelector('.tonic-title').textContent = projectTitle;
   document.querySelector('.tonic-stack1').textContent = canopy.toUpperCase();
