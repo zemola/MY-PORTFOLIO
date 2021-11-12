@@ -41,3 +41,12 @@ form.addEventListener('submit', (event) => {
     showMessage(message, false);
   }
 });
+
+// Fetching data from local storage and pass to the form elements
+if (localStorage.getItem('userData') !== undefined) {
+  const userData = JSON.parse(localStorage.getItem('userData'));
+
+  form.elements.user_name.value = userData.name;
+  form.elements.user_email.value = userData.email;
+  form.elements.message.value = userData.message;
+}
