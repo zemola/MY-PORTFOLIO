@@ -646,9 +646,10 @@
             </p>
           </div>
           <form id="contactform" action="https://formspree.io/f/xnqlywor" method="POST">
-            <input type="text" name="user_name" placeholder="Name" required maxlength="30" />
-            <input type="email" name="user_email" placeholder="Email" required />
-            <textarea
+            <input class="user-name" type="text" name="user_name" placeholder="Name" required maxlength="30" />
+            <input class="user-email" type="email" name="user_email" placeholder="Email" required />
+            <textarea 
+              class="user-message"
               name="message"
               cols="30"
               rows="10"
