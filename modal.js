@@ -28,12 +28,12 @@ const projects = [
   },
   {
     id: '4',
-    name: 'Uber Navigator',
+    name: 'CarGoGo',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deserunt nesciunt nulla tenetur ipsam dolorum placeat natus aperiam recusandae maiores.',
-    featuredImage: './image/desktopad4.png',
+    featuredImage: './image/CarGoGo.png',
     technologies: ['html', 'css', 'javascript', 'Ruby on rails'],
-    stacks: ['canopy', 'Backend Dev', '2015'],
+    stacks: ['Cargogo', 'Fullstack dev', '2023'],
   },
 ];
 
